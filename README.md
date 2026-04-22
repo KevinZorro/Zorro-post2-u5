@@ -1,5 +1,20 @@
 ## Capturas de pantalla
 
+✅ El endpoint POST retorna 400 con mensaje descriptivo al enviar un ISBN
+duplicado.
+<img width="627" height="351" alt="image" src="https://github.com/user-attachments/assets/e3ce6cee-9526-44c2-8991-5fe225d65e02" />
+
+✅ El endpoint GET /{id} retorna 404 con cuerpo JSON { "error": "Libro no
+encontrado: 999" } para un ID inexistente.
+<img width="619" height="217" alt="image" src="https://github.com/user-attachments/assets/b3aad7ed-2cd9-4aac-88b3-269cdc4b5a15" />
+
+✅ La documentación Swagger UI en /swagger-ui.html lista todos los endpoints
+de /api/v2/libros con sus descripciones.
+<img width="1165" height="618" alt="image" src="https://github.com/user-attachments/assets/96fdf90c-734e-42d4-8905-69584a87af92" />
+
+✅ El endpoint POST con título vacío retorna 400 con la lista de errores de
+validación de @Valid.
+<img width="614" height="387" alt="image" src="https://github.com/user-attachments/assets/5173faef-dd06-41aa-9cb1-6a438dc9124d" />
 
 
 # biblioteca-api — Post-Contenido 2
